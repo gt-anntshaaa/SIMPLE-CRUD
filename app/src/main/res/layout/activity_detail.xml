@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/idDetailNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:minHeight="48dp"
+        android:text="171110"
+        android:textIsSelectable="true"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Adinda"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/idDetailNama"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Teknik"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/idDetailProdi"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="3.80"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/idDetailIPK"/>
+
+</LinearLayout>
